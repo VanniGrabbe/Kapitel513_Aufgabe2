@@ -24,7 +24,7 @@ class _Aufgabe3State extends State<Aufgabe3> {
                 child: GestureDetector(
                   onTap: () {
                     setState(() {
-                      isExpanded = true;
+                      isExpanded = !isExpanded;
                     });
                   },
                   child: Text(
